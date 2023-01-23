@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 
-Route::get('kelas', [KelasController::class, 'index']);                 //Soal 1:   Menampilkan list kelas yang ada 
+Route::get('kelas', [KelasController::class, 'index']);                 //Soal 1:   Menampilkan list kelas yang ada   
 Route::get('kelas/show/{id}', [KelasController::class, 'show']);        //Soal 2:   Menampilkan detail suatu kelas (Tampilkan siswa apabila ada)
 Route::post('kelas/store', [KelasController::class, 'store']);          //Soal 3:   Menyimpan data kelas baru
 Route::post('kelas/update/{id}', [KelasController::class, 'update']);   //Soal 4:   Memperbarui data kelas yang ada
