@@ -12,9 +12,9 @@
 	- php artisan key:generate (generate app key)
 - Periksa kembali setting MongoDB apa sudah sesuai atau belum:
   - Periksa providers di config/app.php (Jenssegers\Mongodb\MongodbServiceProvider::class,)
-  - Periksa database apakah sudah terdaftar di config/database.php 
-  - Periksa apakah PHP sudah terintegrasi dengan PECL mongodb, jika belum buka link (https://pecl.php.net/package/mongodb/1.13.0/windows)
-  - Periksa environment (.env) apakah sudah menggunakan database mongodb
+  - Periksa database mongoDB apakah sudah terdaftar di config/database.php 
+  - Periksa apakah PHP sudah terintegrasi dengan mongoDB, jika belum buka link (https://pecl.php.net/package/mongodb/1.13.0/windows)
+  - Periksa environment (.env) apakah sudah menggunakan database mongoDB
   - Tambahkan extension=mongodb di php.ini jika belum ada
 - Instal dan lakukan regis pada Postman Desktop
 - Ketik command dibawah ini:
