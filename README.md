@@ -21,7 +21,7 @@
     - php artisan migrate (migrasi database)
     - php artisan db:seed
     - php artisan serve
-- Selanjutnya masukkan request api http://127.0.0.1:8000/api/{sesuai action yang tertera} dan methodnya.
+- Selanjutnya masukkan request api http://127.0.0.1:8000/api/{sesuai-action-yang-tertera} dan methodnya.
 
 # Author
 - Muhammad Mukhlish Syarif
