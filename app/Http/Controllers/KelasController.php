@@ -38,7 +38,7 @@ class KelasController extends Controller
 
     public function show($id)
     {
-        $kelas = Kelas::find($id)->get();
+        $kelas = Kelas::where('_id',$id)->get();
         $siswa = Siswa::where('kelas_id', $id)->get();    
         foreach ($kelas as $k) {
             $response = [
